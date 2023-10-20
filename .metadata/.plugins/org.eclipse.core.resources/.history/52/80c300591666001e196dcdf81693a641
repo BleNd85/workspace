@@ -1,0 +1,14 @@
+package com.lab111.labwork2;
+
+public class Cl1 implements If1{
+	
+	private Cl1 cl1;
+
+    public Cl1() {
+    }
+
+    @Override
+    public void meth1() {
+        System.out.println("Method 1 " + Cl1.class);
+    }
+}

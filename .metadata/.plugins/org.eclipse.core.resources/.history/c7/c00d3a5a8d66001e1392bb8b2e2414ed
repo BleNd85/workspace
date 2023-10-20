@@ -1,0 +1,22 @@
+package com.lab111.labwork2;
+
+public class Cl3 extends Cl1 implements If3 {
+	If1 if1;
+	
+	public Cl3() {
+        
+    }
+
+    public void meth3() {
+        System.out.println("Method 3 / " + Cl3.class);
+    }
+    @Override
+    public void meth2() {
+        System.out.println("Method 2 / " + Cl3.class);
+
+    }
+    @Override
+    public void meth1() {
+    	System.out.println("Method 1 / " + Cl3.class);
+    }
+}

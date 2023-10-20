@@ -1,0 +1,25 @@
+package com.lab111.labwork2;
+
+public class Cl1 implements If1{
+	
+	private If1 value;
+
+
+    public Cl1(Cl1 value, Cl1 cl1) {
+        this.value = value;
+    }
+
+
+    private Cl1 cl1;
+
+    public Cl1(Cl1 cl1) {
+        this.cl1 = cl1;
+    }
+
+    public Cl1() {
+    }
+
+    public void meth1() {
+        System.out.println("Method 1" + value);
+    }
+}

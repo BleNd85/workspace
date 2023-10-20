@@ -1,0 +1,12 @@
+package com.lab111.labwork2;
+
+public class Cl2 implements If2{
+	private If2 value;
+	public Cl2 (If2 value){
+		this.value = value;
+	}
+	public void meth2() {
+		System.out.println("Method 2" + value);
+	}
+
+}
