@@ -17,6 +17,6 @@ public class GeometryObject implements Geometry {
 
     @Override
     public void properties() {
-        System.out.println("Object: " + name + "\nWidth: " + width + "\nHeight: " + height + "\nx =  " + x + "\ny = " + y + "\n");
+        System.out.println("Object: " + name + "\nWidth: " + width + "\nHeight: " + height + "\nx = " + x + "\ny = " + y + "\n");
     }
 }
