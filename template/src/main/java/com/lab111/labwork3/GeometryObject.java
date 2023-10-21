@@ -24,6 +24,7 @@ public class GeometryObject implements Geometry {
      * Field "y" represents y coordinates of object
      */
     private int y;
+
     /**Constructor of GeometryObject
      * @param name Name of the object
      * @param width Width of the object
@@ -31,7 +32,6 @@ public class GeometryObject implements Geometry {
      * @param x X coordinate of the object
      * @param y Y coordinate of the object
      */
-
     public GeometryObject(String name, int width, int height, int x, int y) {
         this.name = name;
         this.width = width;

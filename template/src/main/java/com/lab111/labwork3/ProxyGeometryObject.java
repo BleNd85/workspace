@@ -1,9 +1,12 @@
 package main.java.com.lab111.labwork3;
-/*
-Class ProxyGeometryObject which implements Interface Geometry,
+/**
+*Class ProxyGeometryObject which implements Interface Geometry,
 * contains a reference to a real GeometryObject
 */
 public class ProxyGeometryObject implements Geometry {
+    /**
+     * Field "geometryObject" of real object
+     */
     private GeometryObject geometryObject;
     /**
      * Field "name" represents name of the object
