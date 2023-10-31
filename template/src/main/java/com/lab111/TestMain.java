@@ -1,31 +1,9 @@
-package com.lab111;
+package main.java.com.lab111;
 
 
+import java.util.Arrays;
+import java.util.Random;
 
-/**
- * Template first class.
- *
- * @author Vladyslav
- */
-public final class TestMain {
-
-    /**
-     * Constructor.
-     */
-    private TestMain() {
-        super();
-    }
-
-    /**
-     * Invokes at application startup.
-     *
-     * @param args Parameters from command line
-     */
-    public static void main(final String[] args) {
-        System.out.println("This is template example for main class");
-        
-        
-
-    }
+public class TestMain {
 
 }
