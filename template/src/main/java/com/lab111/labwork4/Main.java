@@ -12,13 +12,15 @@ public class Main {
         Point point1 = new PointPrimitive(100, 50);
         Point point2 = new PointPrimitive(200, 100);
         GraphicObject line1 = new PointToLineAdapter(point1, point2);
+        GraphicObject line2 = new Line(100, 50);
         line1.draw();
-        point1.setX(550);
-        point2.setY(-700);
+        line2.draw();
+        point1.setX(-100);
+        point2.setY(-95);
+        line2.setX(-80);
+        line2.setY(89);
         line1.draw();
-        GraphicObject line3 = new Line(100, 50);
-        line3.draw();
-        line3.setY(0);
-        line3.draw();
+        line2.draw();
+
     }
 }
