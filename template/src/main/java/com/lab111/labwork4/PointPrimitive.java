@@ -4,7 +4,7 @@ public class PointPrimitive implements Point {
     private int X;
     private int Y;
 
-    public PointPrimitive(int X, int Y) {
+    public <X, Y> PointPrimitive(int X, int Y) {
         this.X = X;
         this.Y = Y;
     }

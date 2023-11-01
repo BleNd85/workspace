@@ -1,5 +1,5 @@
 package main.java.com.lab111.labwork2;
-/**
+/*
 * Class which implements interface If2, consists
 * of field of Cl1's type, constructor Cl2(), methods which allow to print
 * information about class and method in console
