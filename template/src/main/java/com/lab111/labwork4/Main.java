@@ -7,6 +7,12 @@ package main.java.com.lab111.labwork4;
 //оперувати лише методами setX(double), setY(double) примітива (які відсутні в класі точки).
 //Забезпечити можливість використання функціональності точки при малюванні лінії без
 //зміни інтерфейсу точки та методу малювання лінії.
+
+/**
+ * Main class
+ *
+ * @author Vladyslav
+ */
 public class Main {
     public static void main(String[] args) {
         Point point1 = new PointPrimitive(100, 50);

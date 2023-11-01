@@ -4,20 +4,49 @@ package main.java.com.lab111.labwork4;
 import static java.lang.Math.sqrt;
 
 public class PointToLineAdapter implements GraphicObject {
-
+    /**
+     * Field of instance of Point which represents start of the line
+     */
     private Point startPoint;
+    /**
+     * Field of instance of Point which represents end of the line
+     */
     private Point endPoint;
+    /**
+     * Field which represents x coordinate of a startPoint
+     */
     private double x1;
+    /**
+     * Field which represents y coordinate of a startPoint
+     */
     private double y1;
+    /**
+     * Field which represents x coordinate of an endPoint
+     */
     private double x2;
+    /**
+     * Field which represents y coordinate of an endPoint
+     */
     private double y2;
+    /**
+     * Field which represents X coordinate of a line
+     */
     private double X;
+    /**
+     * Field which represents Y coordinate of a line
+     */
     private double Y;
+
+    /**
+     * @param startPoint Instance of Point which represents start of the line
+     * @param endPoint   Instance of Point which represents end of the line
+     */
 
     public PointToLineAdapter(Point startPoint, Point endPoint) {
         this.startPoint = startPoint;
         this.endPoint = endPoint;
     }
+
 
     @Override
     public void setY(double y) {
@@ -27,6 +56,9 @@ public class PointToLineAdapter implements GraphicObject {
     public void setX(double x) {
     }
 
+    /**
+     * Method that draws a line by coordinates of start and end
+     */
     @Override
     public void draw() {
         x1 = startPoint.getX();
