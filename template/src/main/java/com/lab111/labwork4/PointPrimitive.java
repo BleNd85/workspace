@@ -1,22 +1,32 @@
 package main.java.com.lab111.labwork4;
 
 public class PointPrimitive implements Point {
-    private int X;
-    private int Y;
+    private int x;
+    private int y;
 
-    public <X, Y> PointPrimitive(int X, int Y) {
-        this.X = X;
-        this.Y = Y;
+    public PointPrimitive(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 
     @Override
     public void setX(int x) {
-        X = x;
+        this.x = x;
+
     }
 
     @Override
     public void setY(int y) {
-        Y = y;
+        this.y = y;
+    }
+
+    @Override
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public int getY() {
+        return y;
     }
 }
-
