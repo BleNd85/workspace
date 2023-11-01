@@ -9,9 +9,16 @@ package main.java.com.lab111.labwork4;
 //зміни інтерфейсу точки та методу малювання лінії.
 public class Main {
     public static void main(String[] args) {
-        Point point1 = new PointPrimitive(10, 50);
-        Point point2 = new PointPrimitive(-10, 100);
-        GraphicObject line1 = new PointToLine(point1, point2);
+        Point point1 = new PointPrimitive(100, 50);
+        Point point2 = new PointPrimitive(200, 100);
+        GraphicObject line1 = new PointToLineAdapter(point1, point2);
         line1.draw();
+        point1.setX(550);
+        point2.setY(-700);
+        line1.draw();
+        GraphicObject line3 = new Line(100, 50);
+        line3.draw();
+        line3.setY(0);
+        line3.draw();
     }
 }
