@@ -1,5 +1,10 @@
 package main.java.com.lab111.labwork4;
 
+/**
+ * Point interface which consists of setters for coordinates of a line and draws a line.
+ *
+ * @author Vladyslav
+ */
 public interface GraphicObject {
     /**
      * Sets value of y coordinate of a line

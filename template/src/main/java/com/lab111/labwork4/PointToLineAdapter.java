@@ -3,6 +3,12 @@ package main.java.com.lab111.labwork4;
 
 import static java.lang.Math.sqrt;
 
+/**
+ * PointToLineAdapter class which implements interface GraphicObject,
+ * adapts instance of a Point to draw a line.
+ *
+ * @author Vladyslav
+ */
 public class PointToLineAdapter implements GraphicObject {
     /**
      * Field of instance of Point which represents start of the line

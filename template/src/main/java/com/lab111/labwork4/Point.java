@@ -1,8 +1,9 @@
 package main.java.com.lab111.labwork4;
 
 /**
+ * Point interface which consists of setters and getters for coordinates of a point.
+ *
  * @author Vladyslav
- * Point interface which consists of setters and getters for coordinates of a point
  */
 public interface Point {
     /**

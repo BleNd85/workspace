@@ -2,6 +2,12 @@ package main.java.com.lab111.labwork4;
 
 import static java.lang.Math.sqrt;
 
+/**
+ * Line class which implements interface GraphicObject,
+ * draws a line by givan coordinates.
+ *
+ * @author Vladyslav
+ */
 public class Line implements GraphicObject {
     /**
      * Field which represents X coordinate of a line

@@ -1,9 +1,10 @@
 package main.java.com.lab111.labwork4;
 
 /**
- * @author Vladyslav
  * PointPrimitive class which implements interface Point,
  * defines a point that will be adapted to draw a line.
+ *
+ * @author Vladyslav
  */
 public class PointPrimitive implements Point {
     /**
