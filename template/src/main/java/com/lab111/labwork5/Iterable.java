@@ -4,7 +4,9 @@ public interface Iterable {
 
     Iterator<String> iterator();
 
-    void directOrder();
 
-    void reverseOrder();
+    void directOrder(Iterator<String> iterator);
+
+
+    void reverseOrder(Iterator<String> iterator);
 }

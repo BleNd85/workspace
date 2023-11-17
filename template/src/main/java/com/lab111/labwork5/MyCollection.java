@@ -11,10 +11,8 @@ public class MyCollection implements Iterable {
     }
 
     @Override
-    public void directOrder() {
+    public void directOrder(Iterator<String> iterator) {
         System.out.println("У прямому напрямку:");
-        MyCollection collection = new MyCollection();
-        Iterator<String> iterator = collection.iterator();
         while (iterator.hasNext()) {
             String item = iterator.next();
             if (!item.isEmpty()) {
@@ -24,10 +22,8 @@ public class MyCollection implements Iterable {
     }
 
     @Override
-    public void reverseOrder() {
+    public void reverseOrder(Iterator<String> iterator) {
         System.out.println("У зворотному напрямку:");
-        MyCollection collection = new MyCollection();
-        Iterator<String> iterator = collection.iterator();
         while (iterator.hasPrevious()) {
             String item = iterator.previous();
             if (!item.isEmpty()) {
