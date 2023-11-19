@@ -4,7 +4,7 @@ import static java.lang.Math.sqrt;
 
 /**
  * Line class which implements interface GraphicObject,
- * draws a line by givan coordinates.
+ * draws a line by given coordinates.
  *
  * @author Vladyslav
  */

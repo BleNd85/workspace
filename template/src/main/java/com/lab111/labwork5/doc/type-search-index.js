@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"main.java.com.lab111.labwork5","l":"Iterable"},{"p":"main.java.com.lab111.labwork5","l":"Iterator"},{"p":"main.java.com.lab111.labwork5","l":"Main"},{"p":"main.java.com.lab111.labwork5","l":"MyCollection"},{"p":"main.java.com.lab111.labwork5","l":"MyIterator"}];updateSearchResults();
