@@ -3,7 +3,7 @@ package main.java.com.lab111.labwork5;
 import java.util.List;
 
 public class MyCollection implements Iterable {
-    private String[] elements = {"1", "10", "100", "1000", "", "10000", "0", "5687"};
+    private String[] elements = {"1", "10", "100", "1000", "", "10000", "0", ""};
 
     @Override
     public Iterator<String> iterator() {
