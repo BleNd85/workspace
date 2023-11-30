@@ -17,6 +17,7 @@ public class Main {
         collection.reverseOrder(stringIterator);
         MyCollection<Integer> integerCollection = new MyCollection<>();
         integerCollection.addIntList();
+        integerCollection.addStringList();
         Iterator<Integer> integerIterator = integerCollection.iterator();
         integerCollection.directOrder(integerIterator);
         integerCollection.reverseOrder(integerIterator);

@@ -73,7 +73,7 @@ public class MyCollection<T> implements Iterable<T> {
         while (iterator.hasNext()) {
             T item = iterator.next();
             if (!(item == "")) {
-                System.out.println(item);
+                System.out.println(item + " " + item.getClass());
             }
         }
     }
