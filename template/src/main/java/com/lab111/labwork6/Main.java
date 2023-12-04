@@ -1,5 +1,10 @@
 package main.java.com.lab111.labwork6;
 
+/**
+ * Main class
+ *
+ * @author Vladyslav
+ */
 public class Main {
     public static void main(String[] args) {
         PanelComposite panel1 = new PanelComposite("Panel 1");

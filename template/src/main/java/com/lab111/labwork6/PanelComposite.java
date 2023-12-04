@@ -32,7 +32,7 @@ public class PanelComposite implements Element {
     /**
      * Method that adds elements to the list
      *
-     * @param element
+     * @param element Instance of an Element
      */
     public void addElement(Element element) {
         listOfButtons.add(element);
