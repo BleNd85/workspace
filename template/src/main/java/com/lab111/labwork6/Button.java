@@ -12,7 +12,7 @@ public class Button implements Element {
     /**
      * Constructor of the Button
      *
-     * @param name button name
+     * @param name Button name
      */
 
     public Button(String name) {
@@ -30,7 +30,7 @@ public class Button implements Element {
     /**
      * Method that accepts visitor for a specific button
      *
-     * @param visitor instance of ElementVisitor
+     * @param visitor Instance of ElementVisitor
      */
     @Override
     public void accept(ElementsVisitor visitor) {
