@@ -13,6 +13,7 @@ public class PanelComposite implements Element {
      * Field of list which contains buttons
      */
     private List<Element> listOfElements;
+
     /**
      * Panel name field
      */
