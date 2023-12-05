@@ -12,7 +12,7 @@ public class PanelComposite implements Element {
     /**
      * Field of list which contains buttons
      */
-    private List<Element> listOfButtons;
+    private List<Element> listOfElements;
     /**
      * Panel name field
      */
@@ -26,7 +26,7 @@ public class PanelComposite implements Element {
 
     public PanelComposite(String name) {
         this.name = name;
-        this.listOfButtons = new ArrayList<>();
+        this.listOfElements = new ArrayList<>();
     }
 
     /**
@@ -35,7 +35,7 @@ public class PanelComposite implements Element {
      * @param element Instance of an Element
      */
     public void addElement(Element element) {
-        listOfButtons.add(element);
+        listOfElements.add(element);
     }
 
     /**
@@ -44,7 +44,7 @@ public class PanelComposite implements Element {
     @Override
     public void display() {
         System.out.println("Panel: " + name);
-        for (Element button : listOfButtons) {
+        for (Element button : listOfElements) {
             button.display();
         }
     }
@@ -57,7 +57,7 @@ public class PanelComposite implements Element {
     @Override
     public void accept(ElementsVisitor visitor) {
         visitor.visitPanel(this);
-        for (Element button : listOfButtons) {
+        for (Element button : listOfElements) {
             button.accept(visitor);
         }
     }
