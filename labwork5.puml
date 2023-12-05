@@ -1,0 +1,36 @@
+@startuml
+interface main.java.com.lab111.labwork5.Iterable {
+~ Iterator<String> iterator()
+~ void directOrder(Iterator<String>)
+~ void reverseOrder(Iterator<String>)
+}
+class main.java.com.lab111.labwork5.MyCollection {
+- String[] elements
++ Iterator<String> iterator()
++ void directOrder(Iterator<String>)
++ void reverseOrder(Iterator<String>)
+}
+class main.java.com.lab111.labwork5.MyIterator {
+- List<T> collection
+- int headPosition
+- int tailPosition
++ <<Create>> MyIterator(List<T>)
++ boolean hasNext()
++ boolean hasPrevious()
++ T next()
++ T previous()
+}
+interface main.java.com.lab111.labwork5.Iterator {
+~ boolean hasNext()
+~ boolean hasPrevious()
+~ T next()
+~ T previous()
+}
+
+
+main.java.com.lab111.labwork5.MyCollection o-- main.java.com.lab111.labwork5.MyIterator
+main.java.com.lab111.labwork5.MyCollection ..> main.java.com.lab111.labwork5.MyIterator
+main.java.com.lab111.labwork5.Iterable ..> main.java.com.lab111.labwork5.Iterator
+main.java.com.lab111.labwork5.Iterator <|.. main.java.com.lab111.labwork5.MyIterator
+main.java.com.lab111.labwork5.Iterable <|.. main.java.com.lab111.labwork5.MyCollection
+@enduml
