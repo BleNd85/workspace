@@ -5,6 +5,10 @@ package main.java.com.lab111.labwork6;
  *
  * @author Vladyslav
  */
+//7. Визначити специфікації класів, що реалізують елементи графічного інтерфейсу користувача
+//        — панелі (композит) та кнопки (компонент). Реалізувати механізм додаткових операцій над
+//        структурою графічного інтерфейсу без зміни її елементів. В якості ілюстрації такого
+//        механізму розробити операцію підрахунку кількості елементів одного типу.
 public class Main {
     public static void main(String[] args) {
         PanelComposite panel1 = new PanelComposite("Panel 1");
@@ -20,7 +24,8 @@ public class Main {
         panel1.addElement(panel2);
         CountElementsVisitor countElementsVisitor = new CountElementsVisitor();
         panel1.accept(countElementsVisitor);
-        System.out.println("Кількість панелей: " + countElementsVisitor.getAmountOfPanels());
+        panel1.display();
+        System.out.println("\nКількість панелей: " + countElementsVisitor.getAmountOfPanels());
         System.out.println("Кількість кнопок: " + countElementsVisitor.getAmountOfButtons());
     }
 }
