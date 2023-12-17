@@ -15,12 +15,12 @@ public class ListeningState implements ConnectionState {
 
     @Override
     public void establish() {
-        System.out.println("Can't establish connection in LISTENING state.");
+        System.out.println("Open connection first!");
     }
 
     @Override
     public void close() {
-        System.out.println("Connection is already CLOSED");
+        System.out.println("Already closed!");
     }
 
 }

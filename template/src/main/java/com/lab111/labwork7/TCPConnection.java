@@ -10,7 +10,7 @@ public class TCPConnection {
         listeningState = new ListeningState(this);
         establishedState = new EstablishedState(this);
         closedState = new ClosedState(this);
-        currentState = closedState;
+        currentState = listeningState;
     }
 
     public void closeConnection() {

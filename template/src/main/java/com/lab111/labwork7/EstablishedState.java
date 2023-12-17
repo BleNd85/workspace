@@ -9,18 +9,19 @@ public class EstablishedState implements ConnectionState {
 
     @Override
     public void open() {
-        System.out.println("Already in LISTENING state");
-
+        System.out.println("Already LISTENING!");
     }
 
     @Override
     public void establish() {
         System.out.println("ESTABLISHED");
+        tcpConnection.setConnectionState(tcpConnection.getClosedState());
 
     }
 
     @Override
     public void close() {
-
+        System.out.println("CLOSED");
+        tcpConnection.setConnectionState(tcpConnection.getListeningState());
     }
 }
