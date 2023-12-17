@@ -453,9 +453,9 @@ file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.commons.repositories.ui_
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.commons.screenshots_3.26.1.v20230604-1755.jar
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.commons.ui_3.26.1.v20230604-1755.jar
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.commons.workbench_3.26.1.v20230604-1755.jar
-file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.context.core_3.26.1.v20230604-1755.jar
-file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.context.tasks.ui_3.26.1.v20230604-1755.jar
-file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.context.ui_3.26.1.v20230604-1755.jar
+file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.TCPConnection.core_3.26.1.v20230604-1755.jar
+file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.TCPConnection.tasks.ui_3.26.1.v20230604-1755.jar
+file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.TCPConnection.ui_3.26.1.v20230604-1755.jar
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.debug.ui_3.26.1.v20230604-1755.jar
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.discovery.core_3.26.1.v20230604-1755.jar
 file:/C:/Users/volod/.p2/pool/plugins/org.eclipse.mylyn.discovery.ui_3.26.1.v20230604-1755.jar
