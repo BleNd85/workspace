@@ -6,6 +6,7 @@ package main.java.com.lab111.labwork7;
  * @author Vladyslav
  */
 
+
 public class TCPConnection {
     /**
      * Field that represents "LISTENING" state
