@@ -4,8 +4,12 @@ package main.java.com.lab111.labwork8;
 схеми бази даних.*/
 
 import java.util.List;
-import java.util.Scanner;
 
+/**
+ * Main class
+ *
+ * @author Vladyslav
+ */
 public class Main {
     public static void main(String[] args) {
         Database database = Database.getInstance();
@@ -22,10 +26,7 @@ public class Main {
             System.out.println(table.getName());
             System.out.println(table.getColumns());
         }
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введіть назву таблиці для запиту");
-        String queryTableName = scanner.nextLine();
         QueryValidator queryValidator = new QueryValidator(database);
-        queryValidator.makeQuery(queryTableName);
+        queryValidator.makeQuery(userTable);
     }
 }
