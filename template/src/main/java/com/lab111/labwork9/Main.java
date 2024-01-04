@@ -2,6 +2,12 @@ package main.java.com.lab111.labwork9;
 
 /*5. Визначити специфікації класів для будівника дерева розбору складного виразу (у
 відповідності до Форми Бекуса-Наура) на основі його символьного подання.*/
+
+/**
+ * Main class to realise creation of Expression
+ *
+ * @author Vladyslav
+ */
 public class Main {
     public static void main(String[] args) {
         ExpressionBuilder builder = new ConcreteExpressionBuilder();
