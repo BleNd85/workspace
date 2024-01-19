@@ -7,12 +7,18 @@ package main.java.com.lab111.labwork9;
  */
 public class ExpressionDirector {
     /**
+     * Field of an ExpressionBuilder instance
+     */
+    private ExpressionBuilder builder;
+
+    /**
      * Method to construct expression
      *
      * @param builder Instance of ExpressionBuilder
      * @return Constructed expression
      */
     public Expression createExpression(ExpressionBuilder builder) {
+        this.builder = builder;
         return builder.setConstant(1)
                 .setSimpleExpression("*")
                 .setVariable("y")
